@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_g2"
+    tools:context="com.tapfood.application.tapFood.receipt.successful.Successful">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-95dp"
+        app:srcCompat="@drawable/group_g4" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header">
+
+        <RelativeLayout
+            android:id="@+id/layoutUnsuccessful"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/unsuccessful"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iransans_mobile_bold"
+                android:gravity="center_horizontal"
+                android:text="پرداخت ناموفق"
+                android:textColor="#ff4b7c"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/p_print"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/unsuccessful"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/iransans_mobile_light"
+                android:text="لطفا سفارش خود را مجدد ثبت کنید"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/layoutUnsuccessful"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/ghost"
+                android:layout_width="83dp"
+                android:layout_height="93dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/ghost" />
+
+            <TextView
+                android:id="@+id/reorder"
+                android:layout_width="143dp"
+                android:layout_height="43dp"
+                android:layout_below="@id/ghost"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/border_reorder"
+                android:fontFamily="@font/iransans_mobile"
+                android:gravity="center"
+                android:text="ثبت مجدد سفارش"
+                android:textColor="#ff4b7c"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tapfood.application.tapFood.restaurantList.RestaurantListActivity">
+
+                <android.support.v7.widget.CardView
+                 android:layout_width="match_parent"
+                    android:id="@+id/titleLayout"
+                            android:layout_height="50dp"
+                    >
+                <TextView
+                    android:id="@+id/mainHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="فودکورت کوروش"
+                    android:textColor="#212121"
+                    android:textSize="13sp" />
+
+                </android.support.v7.widget.CardView>
+
+
+    <LinearLayout
+        android:id="@+id/shoppingList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleLayout"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewShoppingList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</RelativeLayout>

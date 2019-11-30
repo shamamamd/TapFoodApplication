@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/keyboard_bg_style"
+	android:baselineAligned="false">
+
+	<TextView
+		android:id="@+id/salePriceFood"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_centerHorizontal="true"
+		android:gravity="center"
+		android:background="#000000"
+		android:textColor="#FFFFFF"
+		android:textSize="35dp" />
+
+
+	<TextView
+		android:id="@+id/txtPass"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_centerHorizontal="true"
+		android:gravity="center"
+		android:text="لطفا رمز خود را وارد کنید"
+		android:background="#000000"
+		android:textColor="#FFFFFF"
+		android:layout_below="@+id/salePriceFood"
+		android:textSize="35dp" />
+	<TextView
+		android:id="@+id/showPass"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_centerHorizontal="true"
+		android:gravity="center"
+		android:layout_below="@+id/txtPass"
+		android:background="#000000"
+		android:textColor="#FFFFFF"
+		android:textSize="45dp" />
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/showPass"
+		android:background="@drawable/keyboard_bg_style"
+		android:baselineAligned="false"
+		android:orientation="horizontal">
+
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<Button
+				android:id="@+id/btn1"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn4"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn7"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn_cancel"
+				android:layout_width="match_parent"
+				android:layout_height="123dp"
+				android:layout_marginTop="3dp"
+				android:background="@color/red"
+				android:clickable="true"
+				android:gravity="center"
+				android:text="@string/cancel"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="3dp"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<Button
+				android:id="@+id/btn2"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn5"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn8"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn0"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn_delete"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="#FFEB3B"
+				android:clickable="true"
+				android:gravity="center"
+				android:text="@string/delete"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="3dp"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<Button
+				android:id="@+id/btn3"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn6"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn9"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="3dp"
+				android:background="@drawable/keyboard_bg_small"
+				android:clickable="true"
+				android:gravity="center"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/btn_enter"
+				android:layout_width="match_parent"
+				android:layout_height="123dp"
+				android:layout_marginTop="3dp"
+				android:background="#4CAF50"
+				android:clickable="true"
+				android:gravity="center"
+				android:text="@string/enter"
+				android:textColor="#000000"
+				android:textSize="20sp" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

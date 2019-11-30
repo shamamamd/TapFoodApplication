@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="125dp">
+
+    <ImageView
+        android:id="@+id/sheet"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/group_11" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/sheet">
+
+        <LinearLayout
+            android:id="@+id/bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+            <RelativeLayout
+                android:id="@+id/totalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="24dp">
+
+                <TextView
+                    android:id="@+id/toman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="32dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="left"
+                    android:text="تومان"
+                    android:textColor="#212121"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/totalPriceFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/toman"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="left"
+                    android:text="۲۱,۰۰۰"
+                    android:textColor="#212121"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="28dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:text="قیمت کل"
+                    android:textColor="#212121"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="24dp">
+
+                <TextView
+                    android:id="@+id/toman2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="32dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="left"
+                    android:text="تومان"
+                    android:textColor="#797979"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/totalPriceFoodBottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/toman2"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="left"
+                    android:text="۲۱,۰۰۰"
+                    android:textColor="#797979"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+                    android:layout_height="10dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom"
+                        android:text="----------------------------------------"
+                        android:textAlignment="center"
+                        android:textColor="#797979"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="28dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:text="مجموع کل"
+                    android:textColor="#797979"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dp">
+
+                <TextView
+                    android:id="@+id/toman3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="32dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="left"
+                    android:text="تومان"
+                    android:textColor="#797979"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/sale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toRightOf="@id/toman3"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="left"
+                    android:text="۱۲۰۰"
+                    android:textColor="#797979"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+                    android:layout_height="10dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="----------------------------------------"
+                        android:textColor="#797979"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="28dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:text="تخفیف"
+                    android:textColor="#797979"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dp">
+
+                <TextView
+                    android:id="@+id/toman4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="32dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="left"
+                    android:text="تومان"
+                    android:textColor="#797979"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/revenue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/toman4"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="left"
+                    android:text="۱۰"
+                    android:textColor="#797979"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="154dp"
+                    android:layout_height="10dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="----------------------------------------"
+                        android:textColor="#797979"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="28dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:text="مالیات"
+                    android:textColor="#797979"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

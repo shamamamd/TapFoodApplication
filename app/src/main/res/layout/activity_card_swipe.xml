@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:src="http://schemas.android.com/tools"
+    android:background="@drawable/group_4">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/group" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header">
+
+        <TextView
+            android:id="@+id/txtSwipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/iransans_mobile_bold"
+            android:text="لطفا کارت خود را بکشید"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSwipe"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/group_g442" />
+    </RelativeLayout>
+
+</RelativeLayout>

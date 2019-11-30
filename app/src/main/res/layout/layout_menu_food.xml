@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="1dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/menuFood">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="14dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="2dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageFood"
+                android:layout_width="83dp"
+                android:layout_height="78dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="13dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/group" />
+
+            <TextView
+                android:id="@+id/nameFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="106dp"
+                android:fontFamily="@font/iransans_mobile_bold"
+                android:gravity="end"
+                android:text="همبرگر"
+                android:textColor="#212121"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/descriptionFood"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameFood"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="106dp"
+                android:fontFamily="@font/iransans_mobile_bold"
+                android:text="راسته گوساله، نان فرانسوی، خیارشور، گوجه فرنگی، پنیر چدار"
+                android:textAlignment="gravity"
+                android:textColor="#989898"
+                android:textSize="11sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/choose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descriptionFood"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="106dp">
+
+
+                <TextView
+                    android:id="@+id/realPriceFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="center"
+                    android:text="۲۵,۰۰۰ "
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="57dp"
+                    android:layout_height="2dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="8.5dp"
+                    android:background="#dd7ed7" />
+
+                <TextView
+                    android:id="@+id/currency2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@id/realPriceFood"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="37dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="center"
+                    android:text="تومان"
+                    android:textColor="#000000"
+                    android:textSize="10sp" />
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="12dp">
+
+                    <ImageView
+                        android:id="@+id/mines_button"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/m_button_copy"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/countt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="٠"
+                        android:textColor="#000000"
+                        android:textSize="13sp"
+                        tools:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/plus_button"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/plus_button_copy"
+                        tools:visibility="visible" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/choose"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:layout_marginRight="106dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="right"
+                    android:text="تومان"
+                    android:textColor="#dd7ed7"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/salePriceFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:gravity="right"
+                    android:text="۱۸,۰۰۰ "
+                    android:textColor="#dd7ed7"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="26.7dp"
+                android:layout_height="30.5dp"
+                android:layout_marginLeft="11dp"
+                android:background="@drawable/path_7">
+
+                <TextView
+                    android:id="@+id/saleFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/iransans_mobile_bold"
+                    android:text="۲۵٪"
+                    android:textColor="#ffffff"
+                    android:textSize="11.5sp" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

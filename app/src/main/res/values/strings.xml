@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TapFood</string>
+    <string name="cancel">لغو کردن</string>
+    <string name="determine">Ok</string>
+    <string name="pinpad">Pinpad</string>
+    <string name="printer">Print</string>
+    <string name="system">System</string>
+    <string name="systeminf">System Info</string>
+    <string name="check_card">Check Card</string>
+    <string name="customize_PIN">Customize PIN</string>
+
+    <string name="password_keyboard_display">Display pinpad</string>
+    <string name="confirm_PIN_input">Confirm PIN</string>
+    <string name="terminal_sn_str">SN</string>
+    <string name="specification_number_str">Specification number</string>
+    <string name="update_firmware_str">Update firmware</string>
+    <string name="track_data_str">Get track data</string>
+    <string name="swipe_card_str">Check Card</string>
+    <string name="print_text_str">Print Text</string>
+    <string name="print_template">Print Template</string>
+    <string name="print_barcode_str">Print barCode</string>
+    <string name="print_bitmap_str">Print bitmap</string>
+
+    <string name="print">Printer</string>
+    <string name="pin_pad">PinPad</string>
+
+    <string name="please_swipe">Please swipe</string>
+    <string name="one_track_data">one track data</string>
+    <string name="two_track_data">two track data</string>
+    <string name="three_track_data">three track data</string>
+    <string name="card_number_data">Card number data</string>
+    <string name="card_is_valid">The card is valid</string>
+    <string name="card_data">Card number data</string>
+
+    <string name="pin_cancel">You canceled the PIN entry</string>
+    <string name="pin_input_error">Read PIN input error, error code</string>
+    <string name="pin_input_success">PIN entered successfully</string>
+    <string name="pin_input_null">,You entered null password</string>
+    <string name="pin_input_result">,PIN is</string>
+    <string name="pin_not_support">Do not support the external password keyboard, select the built-in password keyboard</string>
+    <string name="pin_input">Please enter PIN</string>
+    <string name="system_read_sn">The terminal serial number read is</string>
+
+
+    <string name="led_red_on">Red light on</string>
+    <string name="led_red_off">Red light off</string>
+    <string name="led_yellow_on">Yellow light on</string>
+    <string name="led_yellow_off">Yellow light off </string>
+    <string name="led_green_on">Green light on </string>
+    <string name="led_green_off">Green light off </string>
+    <string name="led_blue_on">Blue light on </string>
+    <string name="led_blue_off">Blue light off </string>
+    <string name="led_all_on">All light on </string>
+    <string name="led_all_off">All light off</string>
+
+
+    <string name="device_admin_enabled">Device Admin enabled</string>
+    <string name="device_admin_warning">Warning: Device Admin is going to be disabled.</string>
+    <string name="device_admin_disabled">Device Admin disabled</string>
+    <string name="kiosk_mode_enabled">Kiosk Mode enabled</string>
+    <string name="kiosk_mode_disabled">Kiosk Mode disabled</string>
+    <string name="enter_kiosk_mode">Enter Kiosk Mode</string>
+    <string name="exit_kiosk_mode">Exit Kiosk Mode</string>
+    <string name="kiosk_not_permitted">Kiosk Mode not permitted</string>
+    <string name="not_device_admin">This app is not a device admin!</string>
+    <string name="not_device_owner">This app is not the device owner!</string>
+    <string name="check_update">Check for Update</string>
+
+
+    <string name="delete">پاک کردن</string>
+    <string name="enter">تایید کردن</string>
+    <string name="restaurant_list">رستوران های اطراف شما</string>
+</resources>
